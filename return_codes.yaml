@@ -1,83 +1,64 @@
-# CIDRs:
+# CIDR Blocks
 # 127.0.0.0/24       – Spamhaus IP Blocklists
 # 127.0.1.0/24       – Spamhaus Domain Blocklists
 # 127.0.2.0/24       – Spamhaus Zero Reputation Domains list
 # 127.255.255.0/24	 – ERRORS (not implying a "listed" response)
 
-addresses:
+codes:
   - code: 127.0.0.2
     zone: SBL
     description: Spamhaus SBL Data
-    ipv4: 
   - code: 127.0.0.3
     zone: SBL
     description: Spamhaus SBL CSS Data
-    ipv4: 
   - code: 127.0.0.4
     zone: XBL
     description: CBL Data
-    ipv4: 
   - code: 127.0.0.9
     zone: SBL
     description: Spamhaus DROP/EDROP Data (in addition to 127.0.0.2, since 01-Jun-2016)
-    ipv4: 
   - code: 127.0.0.10
     zone: PBL
     description: ISP Maintained
-    ipv4: 
   - code: 127.0.0.11
     zone: PBL
     description: Spamhaus Maintained
-    ipv4: 
   - code: 127.0.1.2
     zone: DBL
     description: DBL spam domain
-    ipv4:
   - code: 127.0.1.4
     zone: DBL
     description: DBL phish domain
-    ipv4:
   - code: 127.0.1.5
     zone: DBL
     description: DBL malware domain
-    ipv4:
   - code: 127.0.1.6
     zone: DBL
     description: DBL botnet C&C domain
-    ipv4:
   - code: 127.0.1.102
     zone: DBL
     description: DBL abused legit spam
-    ipv4:
   - code: 127.0.1.103
     zone: DBL
     description: DBL abused spammed redirector domain
-    ipv4:
   - code: 127.0.1.104
     zone: DBL
     description: DBL abused legit phish
-    ipv4:
   - code: 127.0.1.105
     zone: DBL
     description: DBL abused legit malware
-    ipv4:
   - code: 127.0.1.106
     zone: DBL
     description: DBL abused legit botnet C&C
-    ipv4:
   - code: 127.0.1.255
     zone: DBL
     description: DBL IP queries prohibited! (ERROR)
-    ipv4:
   - code: 127.255.255.252
     zone: ALL
     description: Typing error in DNSBL name (ERROR)
-    ipv4:
   - code: 127.255.255.254
     zone: ALL
     description: Query via public/open resolver (ERROR)
-    ipv4:
   - code: 127.255.255.255
     zone: ALL
     description: Excessive number of queries (ERROR)
-    ipv4:
