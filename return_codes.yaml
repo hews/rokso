@@ -1,8 +1,8 @@
 # CIDR Blocks
-# 127.0.0.0/24       – Spamhaus IP Blocklists
-# 127.0.1.0/24       – Spamhaus Domain Blocklists
-# 127.0.2.0/24       – Spamhaus Zero Reputation Domains list
-# 127.255.255.0/24	 – ERRORS (not implying a "listed" response)
+# 127.0.0.0/24     – Spamhaus IP Blocklists
+# 127.0.1.0/24     – Spamhaus Domain Blocklists
+# 127.0.2.0/24     – Spamhaus Zero Reputation Domains list
+# 127.255.255.0/24 – ERRORS (not implying a "listed" response)
 
 codes:
   - code: 127.0.0.2
